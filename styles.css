@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image:url(webbb.webp) ;
+    background-position: 55%;
+}
+
+.stopwatch {
+    text-align: center;
+    background: #b4a4b791;
+    padding: 20px;
+    border-radius: 10px;
+    border-style: double;
+    box-shadow: 0 0 15px rgba(21, 17, 17, 0.1);
+    
+    
+}
+
+#display {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: rgb(37, 19, 19);
+    backface-visibility: visible;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#laps {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+#laps li {
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+}
